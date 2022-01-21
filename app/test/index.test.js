@@ -17,12 +17,6 @@ test('利用者の中に佐藤がいるか', () => {
     expect(medical_examination.getNumberOfPeople()).toEqual(expect.arrayContaining(expected));
 });
 
-test('利用者の中に佐藤がいるか', () => {
-    const medical_examination = new MedicalExamination();
-    const expected = ["佐藤"];
-    expect(medical_examination.getNumberOfPeople()).toEqual(expect.arrayContaining(expected));
-});
-
 test('BMIを測定し、指数が普通体重以下が返ってくることを確認', () => {
 
 });

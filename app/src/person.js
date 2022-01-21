@@ -6,6 +6,10 @@ export class Person {
         return "こんにちは！";
     }
 
+    getName() {
+        return "坂本";
+    }
+
     getHeight() {
         return 170;
     }
